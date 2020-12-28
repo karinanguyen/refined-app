@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import Link from 'gatsby-link'
 import './Header.css'
 
@@ -42,10 +42,10 @@ class Header extends React.Component {
       <div className = {this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
       <div className = "HeaderGroup">
       <Link to="/"><img src={require('../images/logo.png')} width="50"/></Link>
-        <Link to="/services">Services</Link>
-        <Link to="/worked-with">Worked With</Link>
-        <Link to="/about-refined">About Refined</Link>
-        <Link to="/contact"><button>Contact</button></Link>
+        <Link to="#1">Services</Link>
+        <Link to="#2">Worked With</Link>
+        <Link to="#3">About Refined</Link>
+        <a href = "mailto: karina@refinedwritinglab.com?subject = Project request&body=Tell us how we can help you."><button>Contact</button></a>
       </div>
     </div>
     )

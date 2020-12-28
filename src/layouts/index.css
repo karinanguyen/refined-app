@@ -70,6 +70,56 @@ a {
   justify-items: center;
 }
 
+.LogoGroup {
+  text-align: center;
+  margin: 200px auto 100px auto;
+}
+
+.Logo2{
+  margin-top: 70px;
+
+}
+
+.About {
+  background: url('../images/hero.png');
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 50px;
+}
+
+.About h1{
+  font-size: 40px;
+  line-height: 1.2;
+  margin-left: 50px;
+  max-width: 500px; 
+  text-align: left;
+}
+
+.About p{ 
+  color: #8C7E7E;
+  font-weight: 500;
+  max-width: 950px;
+  font-size: 24px;
+  margin-left: 50px;
+  margin-bottom: 60px;
+  text-align: left;
+}
+
+.About button{
+  padding: 8px 20px;
+  font-size: 18px; 
+  background: #292626;
+  color: #EEEEEE; 
+  border: none; 
+  font-weight: 700;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  margin-left: 50px;
+}
+
+
 @media (max-width: 1060px){
   .CardGroup {
     grid-template-columns: repeat(2, 1fr);

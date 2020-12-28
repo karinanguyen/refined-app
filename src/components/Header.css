@@ -38,6 +38,11 @@
     border-radius: 10px;
     outline: none;
     cursor: pointer;
+    transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.Header:hover button{
+    transform: scale(1.1, 1.1);
 }
 
 @media (max-width: 640px){

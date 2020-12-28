@@ -12,9 +12,9 @@ const IndexPage = () => (
         {/* <Link to="/page-2/">About</Link> */}
       </div>
     </div> 
-    <div className ="Cards">
+    <div className ="Cards" id="1">
     <h2>Written to empower the future.</h2>
-    <p>From digital content to data storytelling, we got you!</p>
+    <p>from digital content to data storytelling - Refined can craft it all 🖤</p>
     </div>
     <div className = "CardGroup">
       <Card 
@@ -54,6 +54,24 @@ const IndexPage = () => (
       text = "Resume design & writing, cover letters writing. Give us all the information needed nelow and we will deliver it in 24 hours."
       />
     </div>
+    <div className="LogoGroup"> 
+      <div className="Logo1" id="2"> 
+      <Link to="/"><img src={require('../images/logos1.png')} width="1000"/></Link>
+      </div>
+      <div className="Logo2"> 
+      <Link to="/"><img src={require('../images/logos2.png')} width="700"/></Link>
+      </div> 
+    </div>
+
+    <div className = "About" id="3"> 
+    <h1> About Refined.</h1>
+    <p> Refined offers an elegant craftsmanship of writing. 
+    As the experience economy becomes increasingly introspective, Refined offers unique yet innovative ways to connect audiences & communities with various states of minds. 
+    We bring content to a new level - the one that understands cultural rebooting microtrends, immersive living with big data, consumer netocracies, subconcious commerce, and algorithmic beauty.  
+    You can think of us as a Michelin Star restaurant full of letter chefs and refined words served on plates. </p>
+    <a href = "mailto: karina@refinedwritinglab.com?subject = Project request&body=Tell us how we can help you."><button>Contact</button></a>
+    </div>
+
   </div>
 )
 
