@@ -51,7 +51,7 @@ const IndexPage = () => (
       />
       <Card 
       title = "Career Crafting"
-      text = "Resume design & writing, cover letters writing. Give us all the information needed nelow and we will deliver it in 24 hours."
+      text = "One of the key challenges in recruitment is inability to tell a much more holistic and contextualized story of oneself. We offer personalized resume design & cover letters writing."
       />
     </div>
     <div className="LogoGroup"> 
@@ -65,10 +65,10 @@ const IndexPage = () => (
 
     <div className = "About" id="3"> 
     <h1> About Refined.</h1>
-    <p> Refined offers an elegant craftsmanship of writing. 
+    <p> Refined is a digital writing studio of elegant craftsmanship. With years of work experience our writing studio brings brilliant storytelling within fine digital content, UX writing, data storytelling, and more.  
     As the experience economy becomes increasingly introspective, Refined offers unique yet innovative ways to connect audiences & communities with various states of minds. 
-    We bring content to a new level - the one that understands cultural rebooting microtrends, immersive living with big data, consumer netocracies, subconcious commerce, and algorithmic beauty.  
-    You can think of us as a Michelin Star restaurant full of letter chefs and refined words served on plates. </p>
+    We bring content to a new level - the one that understands future cultural rebooting microtrends, immersive living with big data, consumer netocracies, subconcious commerce, and algorithmic beauty.  
+    You can think of us as a Michelin Star restaurant full of letter chefs and refined words served on silver plates. </p>
     <a href = "mailto: karina@refinedwritinglab.com?subject = Project request&body=Tell us how we can help you."><button>Contact</button></a>
     </div>
 
