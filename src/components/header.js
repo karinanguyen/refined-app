@@ -41,8 +41,8 @@ class Header extends React.Component {
     return(
       <div className = {this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
       <div className = "HeaderGroup">
-      <Link to="/"><img src={require('../images/logo.png')} width="50"/></Link>
-        <Link to="#1">Services</Link>
+        <Link to="/"><img src={require('../images/logo.png')} width="50"/></Link>
+        <a href="#1">Services</a>
         <Link to="#2">Worked With</Link>
         <Link to="#3">About Refined</Link>
         <a href = "mailto: karina@refinedwritinglab.com?subject = Project request&body=Tell us how we can help you."><button>Contact</button></a>

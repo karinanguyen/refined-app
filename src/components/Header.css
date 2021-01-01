@@ -25,8 +25,14 @@
 .Header a{
     font-family: monospace;
     font-weight: 520;
-    font-size: 18px;;
+    font-size: 18px;
 }
+
+.Header a:hover {
+    background-color: #292626;
+    color: #EEEEEE;
+    border-radius: 5px;
+  }
 
 .Header button{
     padding: 8px 20px;

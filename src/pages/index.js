@@ -54,12 +54,12 @@ const IndexPage = () => (
       text = "One of the key challenges in recruitment is inability to tell a much more holistic and contextualized story of oneself. We offer personalized resume design & cover letters writing."
       />
     </div>
-    <div className="LogoGroup"> 
-      <div className="Logo1" id="2"> 
-      <Link to="/"><img src={require('../images/logos1.png')} width="1000"/></Link>
-      </div>
-      <div className="Logo2"> 
-      <Link to="/"><img src={require('../images/logos2.png')} width="700"/></Link>
+    <div className="LogoGroup" width = "1000"> 
+      {/* <div className="Logo1"> 
+      <Link to="/"><img src={require('../images/logos1.png')}/></Link>
+      </div> */}
+      <div className="Logo2" id="2"> 
+      <Link to="/"><img src={require('../images/logos2.png')}/></Link>
       </div> 
     </div>
 
@@ -70,6 +70,7 @@ const IndexPage = () => (
     We bring content to a new level - the one that understands future cultural rebooting microtrends, immersive living with big data, consumer netocracies, subconcious commerce, and algorithmic beauty.  
     You can think of us as a Michelin Star restaurant full of letter chefs and refined words served on silver plates. </p>
     <a href = "mailto: karina@refinedwritinglab.com?subject = Project request&body=Tell us how we can help you."><button>Contact</button></a>
+    <footer>&copy; Copyright 2020 Refined</footer>
     </div>
 
   </div>

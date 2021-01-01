@@ -72,7 +72,9 @@ a {
 
 .LogoGroup {
   text-align: center;
-  margin: 200px auto 100px auto;
+  margin: 100px auto 100px auto;
+  position: relative;
+  background-size: cover;
 }
 
 .Logo2{
@@ -82,7 +84,7 @@ a {
 
 .About {
   background: url('../images/hero.png');
-  height: 450px;
+  height: 500px;
   background-size: cover;
   background-position: center;
   padding: 100px 50px;
@@ -91,7 +93,7 @@ a {
 .About h1{
   font-size: 40px;
   line-height: 1.2;
-  margin-left: 50px;
+  margin-left: 80px;
   max-width: 500px; 
   text-align: left;
 }
@@ -101,8 +103,8 @@ a {
   font-weight: 500;
   max-width: 950px;
   font-size: 24px;
-  margin-left: 50px;
-  margin-bottom: 60px;
+  margin-left: 80px;
+  margin-bottom: 40px;
   text-align: left;
 }
 
@@ -116,7 +118,14 @@ a {
   border-radius: 10px;
   outline: none;
   cursor: pointer;
-  margin-left: 50px;
+  margin-left: 80px;
+}
+
+.About footer{
+  font-size: 15px;
+  margin-left: 80px;
+  margin-top: 50px;
+  color: #8C7E7E;
 }
 
 
@@ -124,9 +133,35 @@ a {
   .CardGroup {
     grid-template-columns: repeat(2, 1fr);
   }
+  .About h1{
+    font-size: 30px;
+  }
+
+  .About p{
+    font-size: 18px;
+  }
 }
 @media (max-width: 720px){
   .CardGroup {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .About h1{
+    font-size: 24px;
+    margin-left: 40px;
+  }
+
+  .About p{
+    font-size: 16px;
+    margin-left: 40px;
+  }
+
+  .About button{
+    margin-left: 40px;
+  }
+
+  .About footer{
+    margin-left: 40px;
+    font-size: 12px;
+    margin-top: 30px;
   }
 }
